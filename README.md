@@ -81,7 +81,7 @@ networks:
     driver: overlay
 ~~~~
 
-## commad to deploy as stack
+## Commad to deploy as stack
 ~~~~
 docker stack deploy -c docker-compose.yml --detach aura-stack
 ~~~~
